@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tampashine.com/sitemap.xml

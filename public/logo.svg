@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background Circle (Black) -->
+  <circle cx="250" cy="250" r="248" fill="#090a0f" />
+  
+  <!-- Outer Double Ring -->
+  <circle cx="250" cy="250" r="236" fill="none" stroke="#ffffff" stroke-width="12" />
+  <circle cx="250" cy="250" r="218" fill="none" stroke="#ffffff" stroke-width="3" />
+  
+  <!-- Inner Ring separating circular text area and central badge -->
+  <circle cx="250" cy="250" r="148" fill="none" stroke="#ffffff" stroke-width="7" />
+  
+  <!-- Curved Text Paths -->
+  <!-- Top Arc for TAMPA SHINE (traversing clockwise across top) -->
+  <path id="topTextPath" d="M 68 250 A 182 182 0 0 1 432 250" fill="none" />
+  <!-- Bottom Arc for BRILLAMOS DONDE ESTÉS (traversing left-to-right across bottom so text glyphs are upright and readable) -->
+  <path id="bottomTextPath" d="M 46 250 A 204 204 0 0 0 454 250" fill="none" />
+  
+  <!-- Circular Typography -->
+  <text fill="#ffffff" font-family="'Montserrat', 'Barlow', 'Arial Black', sans-serif" font-weight="900" font-size="39" letter-spacing="5">
+    <textPath href="#topTextPath" xlink:href="#topTextPath" startOffset="50%" text-anchor="middle">
+      TAMPA SHINE
+    </textPath>
+  </text>
+  
+  <text fill="#ffffff" font-family="'Montserrat', 'Barlow', 'Arial Black', sans-serif" font-weight="900" font-size="21" letter-spacing="3.5">
+    <textPath href="#bottomTextPath" xlink:href="#bottomTextPath" startOffset="50%" text-anchor="middle">
+      BRILLAMOS DONDE ESTÉS
+    </textPath>
+  </text>
+
+  <!-- Center Artwork: Bubbles / Foam Background -->
+  <!-- Back foam cloud silhouette -->
+  <g fill="#ffffff">
+    <!-- Main foam bubbles -->
+    <circle cx="250" cy="172" r="38" />
+    <circle cx="206" cy="180" r="32" />
+    <circle cx="294" cy="180" r="32" />
+    <circle cx="168" cy="202" r="28" />
+    <circle cx="332" cy="202" r="28" />
+    <circle cx="140" cy="230" r="22" />
+    <circle cx="360" cy="230" r="22" />
+    <circle cx="228" cy="148" r="24" />
+    <circle cx="272" cy="148" r="24" />
+    
+    <!-- Bubble highlight cutouts / details inside foam -->
+    <circle cx="250" cy="172" r="30" fill="#090a0f" />
+    <circle cx="206" cy="180" r="24" fill="#090a0f" />
+    <circle cx="294" cy="180" r="24" fill="#090a0f" />
+    <circle cx="168" cy="202" r="20" fill="#090a0f" />
+    <circle cx="332" cy="202" r="20" fill="#090a0f" />
+    <circle cx="140" cy="230" r="15" fill="#090a0f" />
+    <circle cx="360" cy="230" r="15" fill="#090a0f" />
+    <circle cx="228" cy="148" r="17" fill="#090a0f" />
+    <circle cx="272" cy="148" r="17" fill="#090a0f" />
+    
+    <!-- Inner bubble dots -->
+    <circle cx="236" cy="188" r="7" fill="#ffffff" />
+    <circle cx="264" cy="188" r="7" fill="#ffffff" />
+    <circle cx="202" cy="198" r="5" fill="#ffffff" />
+    <circle cx="298" cy="198" r="5" fill="#ffffff" />
+    <circle cx="250" cy="155" r="9" fill="#ffffff" />
+  </g>
+
+  <!-- Car Silhouette & Details -->
+  <g fill="#ffffff">
+    <!-- Roof and windshield frame -->
+    <path d="M 195 210 L 225 186 Q 250 183 275 186 L 305 210 Q 250 206 195 210 Z" />
+    <!-- Windshield glass cutout -->
+    <path d="M 200 210 L 227 190 Q 250 187 273 190 L 300 210 Q 250 208 200 210 Z" fill="#090a0f" />
+    
+    <!-- Hood and Main Car Body -->
+    <path d="M 166 232 C 166 220 180 212 205 211 Q 250 210 295 211 C 320 212 334 220 334 232 L 334 266 C 334 274 328 280 320 280 L 314 280 L 314 270 L 186 270 L 186 280 L 180 280 C 172 280 166 274 166 266 Z" />
+    
+    <!-- Headlights cutouts -->
+    <polygon points="175,236 198,236 195,248 174,244" fill="#090a0f" />
+    <polygon points="325,236 302,236 305,248 326,244" fill="#090a0f" />
+    
+    <!-- Radiator Grille -->
+    <path d="M 215 236 L 285 236 Q 288 250 278 255 Q 250 258 222 255 Q 212 250 215 236 Z" fill="#090a0f" />
+    <!-- Grille chrome rib -->
+    <line x1="220" y1="244" x2="280" y2="244" stroke="#ffffff" stroke-width="3" />
+
+    <!-- Lower air intake & bumper contours -->
+    <rect x="210" y="260" width="80" height="6" rx="3" fill="#090a0f" />
+    
+    <!-- Side Mirrors -->
+    <path d="M 180 214 L 166 216 Q 164 222 170 224 L 182 222 Z" />
+    <path d="M 320 214 L 334 216 Q 336 222 330 224 L 318 222 Z" />
+    
+    <!-- Tires / Wheels -->
+    <rect x="160" y="246" width="14" height="28" rx="6" />
+    <rect x="326" y="246" width="14" height="28" rx="6" />
+  </g>
+
+  <!-- MOBILE WASH Banner / Pill Shape -->
+  <g>
+    <rect x="156" y="278" width="188" height="34" rx="6" fill="#090a0f" stroke="#ffffff" stroke-width="3.5" />
+    <text x="250" y="303" fill="#ffffff" font-family="'Montserrat', 'Barlow', 'Arial Black', sans-serif" font-weight="900" font-size="19" letter-spacing="3" text-anchor="middle">
+      MOBILE WASH
+    </text>
+  </g>
+</svg>

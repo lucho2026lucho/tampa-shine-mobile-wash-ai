@@ -1,0 +1,6 @@
+{
+  "name": "Tampa Shine Mobile Wash",
+  "description": "Página web oficial de Tampa Shine Mobile Wash. Lavado y detallado móvil de vehículos en Tampa, Florida. Brillamos donde estés.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
