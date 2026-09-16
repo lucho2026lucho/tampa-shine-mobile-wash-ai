@@ -23,7 +23,7 @@ export default function App() {
   const [language, setLanguage] = useState<Language>('es');
   const [config, setConfig] = useState<BusinessConfig>(() => getStoredBusinessConfig() || DEFAULT_BUSINESS_CONFIG);
   const [isConfigOpen, setIsConfigOpen] = useState<boolean>(false);
-  
+
   // States for pre-selected booking data
   const [bookingServiceId, setBookingServiceId] = useState<string>('exterior-wash');
   const [bookingVehicleType, setBookingVehicleType] = useState<VehicleType>('sedan');
@@ -100,6 +100,7 @@ export default function App() {
 
         {/* 8. Booking Form (Complete Scheduling with WhatsApp integration) */}
         <BookingForm
+          key={`${bookingVehicleType}-${bookingServiceId}`}
           language={language}
           config={config}
           selectedServiceId={bookingServiceId}
