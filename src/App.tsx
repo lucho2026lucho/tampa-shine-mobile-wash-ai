@@ -100,7 +100,6 @@ export default function App() {
 
         {/* 8. Booking Form (Complete Scheduling with WhatsApp integration) */}
         <BookingForm
-          key={`${bookingVehicleType}-${bookingServiceId}`}
           language={language}
           config={config}
           selectedServiceId={bookingServiceId}
